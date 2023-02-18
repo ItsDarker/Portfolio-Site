@@ -53,3 +53,23 @@ footer a {
     margin-bottom:4rem ;
     color: var(--color-bg);
 }
+@media screen and (max-width: 600px) {
+    footer{
+        padding: 1rem;
+    }
+    .footer__logo{
+        margin-bottom: 1rem;
+    }
+    .footer__socials{
+        margin-bottom: 2rem;
+    }
+    .permalinks{
+        margin-bottom: 1rem;
+    }
+}
+/*========================= MEDIA QUERIES (SMALL DEVICES)============================*/
+@media screen and (max-width: 600px) {
+footer {
+    margin-top: 0rem;
+}
+}

@@ -53,6 +53,7 @@
   .experience__content {
     padding: 1rem;
   }
+
 }
 
 /*========================= MEDIA QUERIES (SMALL DEVICES)============================*/
@@ -65,4 +66,9 @@
     padding: 2rem 1rem;
     margin: 0 auto;
   }
+    .experience__details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
 }

@@ -123,6 +123,9 @@ img {
   section {
     margin-top: 6rem;
   }
+  #about{
+    margin-top: 0rem;
+  }
 }
 
 /*========================= MEDIA QUERIES (SMALL DEVICES)============================*/
@@ -133,5 +136,9 @@ img {
 
   section > h2 {
     margin-bottom: 2rem;
+    
+  }
+    #footer{
+    margin-top: 0rem;
   }
 }

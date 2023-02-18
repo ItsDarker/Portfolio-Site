@@ -56,6 +56,51 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG1} alt="" />
+          </div>
+          <h3>AI Voice Assistant</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/ItsDarker/AI-VoiceAssitant-Online"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG1} alt="" />
+          </div>
+          <h3>AI Voice Assistant</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/ItsDarker/AI-VoiceAssitant-Online"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG1} alt="" />
+          </div>
+          <h3>AI Voice Assistant</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/ItsDarker/AI-VoiceAssitant-Online"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );

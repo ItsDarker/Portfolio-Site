@@ -1,5 +1,6 @@
 .portfolio__container {
-  margin: 5rem;
+  /*margin: 2rem 16rem 2rem;*/
+  margin:4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
