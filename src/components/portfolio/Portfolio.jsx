@@ -2,7 +2,12 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.png";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG3 from "../../assets/portfolio3.png";
+import IMG4 from "../../assets/IMG4.webp"
+import IMG5 from "../../assets/IMG5.jpg";
+import IMG7 from "../../assets/IMG6.jpg";
+import IMG6 from "../../assets/IMG7.jpg";
+
 
 const Portfolio = () => {
   return (
@@ -58,12 +63,12 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG4} alt="" />
           </div>
-          <h3>AI Voice Assistant</h3>
+          <h3>GPT-3 Blog Writter</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/ItsDarker/AI-VoiceAssitant-Online"
+              href="https://github.com/ItsDarker/gpt3-writer-starter"
               className="btn"
               target="_blank"
             >
@@ -73,12 +78,12 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG5} alt="" />
           </div>
-          <h3>AI Voice Assistant</h3>
+          <h3>AI Rapper</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/ItsDarker/AI-VoiceAssitant-Online"
+              href="https://github.com/ItsDarker/ai-rapper"
               className="btn"
               target="_blank"
             >
@@ -88,12 +93,27 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG6} alt="" />
           </div>
-          <h3>AI Voice Assistant</h3>
+          <h3>AI Avatar Generator</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/ItsDarker/AI-VoiceAssitant-Online"
+              href="https://github.com/ItsDarker/ai-avatar-generator"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="" />
+          </div>
+          <h3>Eye controlled mouse</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/ItsDarker/eye_controlled_mouse"
               className="btn"
               target="_blank"
             >
